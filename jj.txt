@@ -1,0 +1,18 @@
+ssh ubuntu@152.70.70.127 -i C:/Users/User/Downloads/ssh-key-2021-12-01.key
+ssh ubuntu@152.70.70.127
+ssh -i /home/yasoja44/ssh-key-2021-12-01.key ubuntu@152.70.70.127
+cd C:/Users/User/Desktop/
+ssh -i ssh-rsa AAAAB3Nza555555555555555555555555gfghfghfghfghNWap6Prb ssh-key-2021-12-01 ubuntu@152.70.70.127
+
+ssh-rsa AAAAB3Nza555555555555555555555555gfghfghfghfghNWap6Prb ssh-key-2021-12-01
+
+
+ssh ubuntu@152.70.67.239 -i C:/Users/User/Downloads/Key
+
+sudo chown -R ubuntu:ubuntu /var/www/3.3.3.3/html
+
+nano /var/www/3.3.3.3/html/index.html
+sudo vi /etc/nginx/sites-available/3.3.3.3
+sudo ln -s /etc/nginx/sites-available/3.3.3.3 /etc/nginx/sites-enabled/
+sudo vi /etc/nginx/nginx.conf
+
